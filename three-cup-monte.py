@@ -27,6 +27,13 @@ def user_guess():
 
 # function to check if the user's guess is correct
 def game_check(shuffle_cup_ball_list, user_guess, player_name):
+    """
+    This function takes the shuffled list, the user's guess, and the user's name as inputs, and checks if the user's
+    guess is correct by comparing it to the index of the element in the shuffled list. If the guess is correct,
+    it prints a message of congratulations to the user, otherwise it prints a message of failure and displays the
+    shuffled list. The code then creates a list of cups and balls, shuffles it, prompts the user for their name and
+    guess, and checks the user's guess.
+    """
     if shuffle_cup_ball_list[user_guess] == 0:
         print(f"You guessed right, {player_name}!")
     else:
