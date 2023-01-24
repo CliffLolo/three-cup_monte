@@ -3,6 +3,10 @@ from random import shuffle
 
 # function to shuffle the cup and ball list
 def shuffle_cup_ball_list(cup_ball_list):
+    """
+    This function takes a list of cup and ball as an input and uses the shuffle() function from the random module
+    to randomly shuffle the positions of the elements in the list. It then returns the shuffled list.
+    """
     shuffle(cup_ball_list)  # shuffle the positions of elements in the list
     return cup_ball_list
 
