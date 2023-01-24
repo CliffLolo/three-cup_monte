@@ -14,3 +14,7 @@ If the guess is correct, it will print a message of congratulations to the user,
 - The game can be enhanced in terms of UI, by adding graphics and sound effects.
 - It can be made into a web application or mobile application.
 - The number of cups and balls can be increased or decreased as per the requirement.
+
+Feel free to use and modify the code for your own projects.
+
+Enjoy the game!
