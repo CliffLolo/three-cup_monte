@@ -37,8 +37,8 @@ def game_check(shuffle_cup_ball_list, user_guess, player_name):
     if shuffle_cup_ball_list[user_guess] == 0:
         print(f"You guessed right, {player_name}!")
     else:
-        print(f"Wrong choice, {player_name}! Try again")
-        print("Take a look at where the ball is. Better luck next time!")
+        print(f"Wrong choice, {player_name}!")
+        print("Take a look at where the ball is...Better luck next time, buddy!")
         print(shuffle_cup_ball_list)
 
 
