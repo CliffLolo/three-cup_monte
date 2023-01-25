@@ -11,14 +11,14 @@ def shuffle_cup_ball_list(cup_ball_list):
     return cup_ball_list
 
 
-# function to get user's name and guess
+# function to get the user's name and guess
 def user_guess():
     """
     This function prompts the user to enter their name and then repeatedly prompts them to enter a guess of
     which index they think the ball is in (0, 1, or 2) until they enter a valid input.
     It then returns the user's name and guess as a tuple.
     """
-    player_name = input("Hello Player! What is your name")
+    player_name = input("Hello Player! What is your name?")
     player_guess = ''
     while player_guess not in ['0', '1', '2']:
         player_guess = input("Please enter which index you think the ball is in")
